@@ -1,0 +1,11 @@
+# Reverse a string
+------------------------------------
+def FirstReverse(strParam):
+
+  # code goes here
+  x = "".join(reversed(strParam))
+  return x
+
+# keep this function call here 
+print(FirstReverse(input()))
+------------------------------------
